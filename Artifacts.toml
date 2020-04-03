@@ -1,294 +1,294 @@
 [[SCALAPACK]]
 arch = "x86_64"
-git-tree-sha1 = "e4f21e246c3c44dd0e3ada8f3294267cb613147c"
+git-tree-sha1 = "d80a4a512c810a19ebaf6c4dd523f3e1aca5876b"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[SCALAPACK.download]]
+    sha256 = "e79b4f19bd44f6a6754cd629789617ef2707f5facc640b8f6b25de866aec685f"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.x86_64-linux-gnu-libgfortran4.tar.gz"
+[[SCALAPACK]]
+arch = "armv7l"
+git-tree-sha1 = "7de52e69895ef2064f04829a3498e05bdf44ccd4"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[SCALAPACK.download]]
+    sha256 = "00e9b38e8fd77148aeda21306e9139f026cfe0f976f8e0b26a7cecae4aa83cf8"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.armv7l-linux-musleabihf-libgfortran4.tar.gz"
+[[SCALAPACK]]
+arch = "x86_64"
+git-tree-sha1 = "4485c597c4372e79f3deaf1a5d5f4deff709f8c1"
 libgfortran_version = "4.0.0"
 os = "freebsd"
 
     [[SCALAPACK.download]]
-    sha256 = "525b14a6ab2635375217de7828af82ea4e37d60850db7e31466d0a0169353ee5"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.x86_64-unknown-freebsd11.1-libgfortran4.tar.gz"
+    sha256 = "105c0c6ba5b90df39a3d21685efcd347b986289be6f43959a9782cedcb12c543"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.x86_64-unknown-freebsd11.1-libgfortran4.tar.gz"
 [[SCALAPACK]]
 arch = "x86_64"
-git-tree-sha1 = "b36d797c72358cd655e63d51dd63cd940820930f"
-libgfortran_version = "3.0.0"
-os = "macos"
-
-    [[SCALAPACK.download]]
-    sha256 = "ec2e67d473981ffa5d1cae1562cc66923c53042bfedb8809c82b5fedbf470e3a"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.x86_64-apple-darwin14-libgfortran3.tar.gz"
-[[SCALAPACK]]
-arch = "aarch64"
-git-tree-sha1 = "56de4b0b881dc2e69ba90e53b8222be060694d21"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[SCALAPACK.download]]
-    sha256 = "972e13a43a75dbad404ebadcbdb6acdb436b78ca89425f5bd963c062f9029e2d"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.aarch64-linux-gnu-libgfortran5.tar.gz"
-[[SCALAPACK]]
-arch = "x86_64"
-git-tree-sha1 = "ce06c1043c8ae37ae467b432b40d3a85c3b9abf2"
-libgfortran_version = "4.0.0"
-os = "macos"
-
-    [[SCALAPACK.download]]
-    sha256 = "b40d817724ae483ff1f9712f1c479e04a5b26a980b93da8c56792d0045ef1d09"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.x86_64-apple-darwin14-libgfortran4.tar.gz"
-[[SCALAPACK]]
-arch = "x86_64"
-git-tree-sha1 = "8a7e73250d8e5fdb510028e321c6c9289e117a28"
-libgfortran_version = "5.0.0"
-os = "macos"
-
-    [[SCALAPACK.download]]
-    sha256 = "62e6596aefdf6b916818b67a2768ce1e3286c86ea178976ca40d362218a14007"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.x86_64-apple-darwin14-libgfortran5.tar.gz"
-[[SCALAPACK]]
-arch = "armv7l"
-git-tree-sha1 = "d862460f883a45d53fa7f2e6c69c8463ec50e3b8"
-libc = "musl"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[SCALAPACK.download]]
-    sha256 = "1515b6069005fd232051eea0d05deb5490485b97b99b1b3f2b1d0339665d0731"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.armv7l-linux-musleabihf-libgfortran4.tar.gz"
-[[SCALAPACK]]
-arch = "x86_64"
-git-tree-sha1 = "f1bb99cd72cc9fd1ac814ca37f1367228eff62c5"
+git-tree-sha1 = "a5ce1b2e9a674252e32d3c707e0ba5596b87dd86"
 libc = "glibc"
 libgfortran_version = "3.0.0"
 os = "linux"
 
     [[SCALAPACK.download]]
-    sha256 = "b5d5ce681a22124479345a6f462b3ecefd851e2564e3e2611ba17b9df4a4dfca"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.x86_64-linux-gnu-libgfortran3.tar.gz"
+    sha256 = "aed10d6e87a00411103384bcbd1054afddd3a651fb838722aa8c425bb4911e5e"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.x86_64-linux-gnu-libgfortran3.tar.gz"
 [[SCALAPACK]]
 arch = "i686"
-git-tree-sha1 = "aabc8f0fabbf1a28dd6341d97d60cc1a8647b24a"
+git-tree-sha1 = "b856139ae1377d0b7ddf2665cea0f0a2b98908c0"
 libc = "musl"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[SCALAPACK.download]]
-    sha256 = "56467fda78d2cb4414988290ce581693136f2c8ceed9273344e4adf009050ffb"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.i686-linux-musl-libgfortran5.tar.gz"
+    sha256 = "7f06fefce6d3cbcb9e2d8aa88e51e78e6b58efa13203e7a03c1f88f6d40bf822"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.i686-linux-musl-libgfortran5.tar.gz"
 [[SCALAPACK]]
 arch = "armv7l"
-git-tree-sha1 = "e6612069e2211e1616cc9554afe0285abfd8f21e"
-libc = "musl"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[SCALAPACK.download]]
-    sha256 = "bc1320baaf4c165e4b5dbb4a95a1c24308c87d5aaa980ccd71ef2c8b45723d89"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.armv7l-linux-musleabihf-libgfortran5.tar.gz"
-[[SCALAPACK]]
-arch = "aarch64"
-git-tree-sha1 = "8bacc718022d00d341d49c920c6ef684718d60f0"
+git-tree-sha1 = "fd85a65f3d9284956646702d645b180436abe0a3"
 libc = "glibc"
 libgfortran_version = "3.0.0"
 os = "linux"
 
     [[SCALAPACK.download]]
-    sha256 = "676fb58ed4ea83698986cf767f8ccb3086f6fb116f8367a48aeb609a77859776"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.aarch64-linux-gnu-libgfortran3.tar.gz"
-[[SCALAPACK]]
-arch = "armv7l"
-git-tree-sha1 = "fc448dd05906084b2e2120ef0f97db55bdbe87b9"
-libc = "musl"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[SCALAPACK.download]]
-    sha256 = "1efd642cf2fa8072f20cbd4ce571bdba960840d0608d9eb09a64caf2916dd95c"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.armv7l-linux-musleabihf-libgfortran3.tar.gz"
-[[SCALAPACK]]
-arch = "aarch64"
-git-tree-sha1 = "e50440a43a3dfa87877086788c08740fefe1f8dd"
-libc = "musl"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[SCALAPACK.download]]
-    sha256 = "34e074753a66d96779f4c4c70e5a303d9058589658b13b84908076f91f225946"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.aarch64-linux-musl-libgfortran3.tar.gz"
+    sha256 = "b6d9584e35967ee7d66eac25e3da099d313adf08f6df53fa4b561804f9b1f0d6"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.armv7l-linux-gnueabihf-libgfortran3.tar.gz"
 [[SCALAPACK]]
 arch = "x86_64"
-git-tree-sha1 = "0472b89e7d8546f8b9916f4974c875d72f755c33"
-libc = "glibc"
+git-tree-sha1 = "41d6dd49b8dce0f731c98a27e3aa67dc746b3aa9"
+libc = "musl"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[SCALAPACK.download]]
-    sha256 = "afae9bfd032cb1031e067986d180ae23b9d5b725415785d44a5ff5e96a0a6525"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.x86_64-linux-gnu-libgfortran5.tar.gz"
+    sha256 = "9c1be862ea83a67e434e153035d845ccd40575d75d4141bf211cac1203fe077e"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.x86_64-linux-musl-libgfortran5.tar.gz"
 [[SCALAPACK]]
-arch = "armv7l"
-git-tree-sha1 = "e4faa88ce0532e609eb468a5dd9f0a6782682132"
+arch = "aarch64"
+git-tree-sha1 = "4815013c571786dbf2d1096ce602138dd7cf15dd"
 libc = "glibc"
 libgfortran_version = "3.0.0"
 os = "linux"
 
     [[SCALAPACK.download]]
-    sha256 = "c703e1ada75ab36f3e6618eb5f5274898da04049e524a171eb91810d3b02fbbc"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.armv7l-linux-gnueabihf-libgfortran3.tar.gz"
+    sha256 = "2d0440ff15e90658c306c6551f352cb198167a1eae094f0fc52ebb78dbf39d1b"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.aarch64-linux-gnu-libgfortran3.tar.gz"
+[[SCALAPACK]]
+arch = "armv7l"
+git-tree-sha1 = "3cc1cf50db7ea7331d942e2ef8eda611facb0cb6"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[SCALAPACK.download]]
+    sha256 = "d338064644fa89838fa70cb9dc67704d00e99f0855017aae6f888b81c4814a34"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.armv7l-linux-musleabihf-libgfortran3.tar.gz"
 [[SCALAPACK]]
 arch = "i686"
-git-tree-sha1 = "340016b0695579d74262b03bb7ad5689f18674e2"
-libc = "glibc"
+git-tree-sha1 = "b6feb9caea58af9d3663fb3fedb79c097567b0be"
+libc = "musl"
 libgfortran_version = "4.0.0"
 os = "linux"
 
     [[SCALAPACK.download]]
-    sha256 = "5753a1c110309852a6ecc3b4dcfa420875fe008c6db0541e794f832c16f54ddb"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.i686-linux-gnu-libgfortran4.tar.gz"
+    sha256 = "f1f03326e34aede8ce8f3137ae728dd2d9e9bcd3e2556517dc71a3081b574c34"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.i686-linux-musl-libgfortran4.tar.gz"
+[[SCALAPACK]]
+arch = "aarch64"
+git-tree-sha1 = "91748b99a3b353387a13b7a92979d8b3cb7304a8"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[SCALAPACK.download]]
+    sha256 = "f8e5795acb9c7ee7bf501a7464cbbab0e108ee864ce3a113f1d0ff3e8c1bfcb9"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.aarch64-linux-musl-libgfortran4.tar.gz"
+[[SCALAPACK]]
+arch = "aarch64"
+git-tree-sha1 = "0d2b8b56b3470b992a92c4e69729805de39803bb"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[SCALAPACK.download]]
+    sha256 = "01c991bc02a5c6d6db6b1c77a0327d63fc438f68f5f5eead3fbdac1143e735f2"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.aarch64-linux-musl-libgfortran3.tar.gz"
+[[SCALAPACK]]
+arch = "armv7l"
+git-tree-sha1 = "72eafd9bde0499b280522270bed26d6ef2aee47c"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[SCALAPACK.download]]
+    sha256 = "5344c38c128cc426cc5df4e4c46f23fdaeed35cf5063ae9ec347b8ef780e6d22"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.armv7l-linux-gnueabihf-libgfortran5.tar.gz"
+[[SCALAPACK]]
+arch = "i686"
+git-tree-sha1 = "e42e0397a6c71da8ac5624b40d02f1287217605e"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[SCALAPACK.download]]
+    sha256 = "ff0e3b028e8687b60787ed54c6149e4397d6e0703a7cc05569520316dcfb7fd6"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.i686-linux-gnu-libgfortran3.tar.gz"
 [[SCALAPACK]]
 arch = "x86_64"
-git-tree-sha1 = "d646aa3abf7a274ad9205a67702909be8611a880"
+git-tree-sha1 = "4828444908f0b5726c116caa3f43b48b91c9494b"
 libgfortran_version = "5.0.0"
 os = "freebsd"
 
     [[SCALAPACK.download]]
-    sha256 = "386ebb111b51ca85ef3fe0d1c2b84f51d3f7bef6a892e866c5b09831b90eb159"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.x86_64-unknown-freebsd11.1-libgfortran5.tar.gz"
+    sha256 = "1fce2f217794f9e1ea0cea65db1229dda9f1415c1ab80c3f8861039b291a5ee3"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.x86_64-unknown-freebsd11.1-libgfortran5.tar.gz"
 [[SCALAPACK]]
-arch = "aarch64"
-git-tree-sha1 = "fc6cd1ab61207080e99e7541f7d4874b0af5d6d1"
-libc = "glibc"
+arch = "x86_64"
+git-tree-sha1 = "80a14ec03fa148a86f4c12f678149de24bfe4ad5"
 libgfortran_version = "4.0.0"
-os = "linux"
+os = "macos"
 
     [[SCALAPACK.download]]
-    sha256 = "1f1a9dc5e166ae51e941461e6ff53d6cc1f2c2db6045d6301ab570a8c43381c7"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.aarch64-linux-gnu-libgfortran4.tar.gz"
+    sha256 = "1b4907d0135aab98b31f32450883436a2f88b999ab5b5c50ce13a220bde8a2bd"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.x86_64-apple-darwin14-libgfortran4.tar.gz"
 [[SCALAPACK]]
 arch = "x86_64"
-git-tree-sha1 = "8a7e94e82b12f11dbea1275de82e637f9d382156"
-libc = "musl"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[SCALAPACK.download]]
-    sha256 = "ebf17d8678aa4114581bd03470462db8adc4444c518103ffd81c4bc3120ef718"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.x86_64-linux-musl-libgfortran5.tar.gz"
-[[SCALAPACK]]
-arch = "x86_64"
-git-tree-sha1 = "b336856a7e439ecd5c5d28259da3078f5c3e3a79"
-libc = "musl"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[SCALAPACK.download]]
-    sha256 = "91c12a9fa10c0ee87126e8b376ffff9dd2478e9eb68d6e01324ae3074c21dd7c"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.x86_64-linux-musl-libgfortran4.tar.gz"
-[[SCALAPACK]]
-arch = "armv7l"
-git-tree-sha1 = "7b228e76dedcf98f65b6d5332157bbe908a4212f"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[SCALAPACK.download]]
-    sha256 = "cc3329bce653d83ffff799efe7cfd0df85b36efbab226f6f973646763671a052"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.armv7l-linux-gnueabihf-libgfortran5.tar.gz"
-[[SCALAPACK]]
-arch = "x86_64"
-git-tree-sha1 = "fff65a82ad5e7a0911c074cfd5a575ba12309811"
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[SCALAPACK.download]]
-    sha256 = "84959f38f5564c405d6a16ad5b7ec8739adc78c4d5e2b21f56de9bed26d9cef7"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.x86_64-linux-gnu-libgfortran4.tar.gz"
-[[SCALAPACK]]
-arch = "x86_64"
-git-tree-sha1 = "a0b4d7e4173c51805396155d52aef61f56b437b5"
+git-tree-sha1 = "21d3e826792adc9ab92f329ccf7e339e2d094d52"
 libc = "musl"
 libgfortran_version = "3.0.0"
 os = "linux"
 
     [[SCALAPACK.download]]
-    sha256 = "133fe75b6a45949d6b6858d4739fde42eba655b15712ab53297c97cf181cb3a3"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.x86_64-linux-musl-libgfortran3.tar.gz"
-[[SCALAPACK]]
-arch = "aarch64"
-git-tree-sha1 = "ad4a544bd1aa51f87dd4d5f1b5ebd426d5be43e0"
-libc = "musl"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[SCALAPACK.download]]
-    sha256 = "d9544a0c1245cba082f4649cd48229cb2d638927308d1385399c473dc319e869"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.aarch64-linux-musl-libgfortran4.tar.gz"
+    sha256 = "ee806176cace73bd2dd58b4e200ae03ee8d66bc230678beae8c626e860385718"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.x86_64-linux-musl-libgfortran3.tar.gz"
 [[SCALAPACK]]
 arch = "i686"
-git-tree-sha1 = "3e14e464408c3072aa22c42a09521366c8d34ac1"
+git-tree-sha1 = "96c86a0bce3cf0fa33ead8050afa108fe4a03af8"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[SCALAPACK.download]]
-    sha256 = "c977cd8436b6285e9ed7e8f6de6a4029763f185ba3757dfc798bd68026bc8c93"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.i686-linux-gnu-libgfortran5.tar.gz"
+    sha256 = "f9dc5d0e72c60b2a8058ef9e7fde558edf17c513fa2da9e13b8f5e0636f87d98"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.i686-linux-gnu-libgfortran5.tar.gz"
 [[SCALAPACK]]
-arch = "i686"
-git-tree-sha1 = "97c62af68478a4afb2cdffd69f90fd1de5c5381e"
-libc = "glibc"
-libgfortran_version = "3.0.0"
+arch = "aarch64"
+git-tree-sha1 = "a728927a5a9d01e07b9b4d6020e8d8ad8ff588ba"
+libc = "musl"
+libgfortran_version = "5.0.0"
 os = "linux"
 
     [[SCALAPACK.download]]
-    sha256 = "e3e3ddfd6027a3901bb9832688a0b1347135dbbb9142f0e1b4b2148995081373"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.i686-linux-gnu-libgfortran3.tar.gz"
+    sha256 = "6c7c7583b170b68125c493147a450ef7811cfc20b2a935b3494bead22c03f2b4"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.aarch64-linux-musl-libgfortran5.tar.gz"
 [[SCALAPACK]]
 arch = "x86_64"
-git-tree-sha1 = "07d5adb65abebaeb05259ef2da380a2aedd41760"
+git-tree-sha1 = "dffc58ac2bfa4cde8ef07fdaedf8d4b13a6ae3c0"
+libgfortran_version = "5.0.0"
+os = "macos"
+
+    [[SCALAPACK.download]]
+    sha256 = "9e219925a098b50ac9c2c49894536293fe55fbd4ee052931bc14aa998172cb81"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.x86_64-apple-darwin14-libgfortran5.tar.gz"
+[[SCALAPACK]]
+arch = "x86_64"
+git-tree-sha1 = "b8bb1f3602ba85e9f58284550c6d3a4ed5bed113"
 libgfortran_version = "3.0.0"
 os = "freebsd"
 
     [[SCALAPACK.download]]
-    sha256 = "f500eb8ab00ffb13bd994173f9d539f90c3005a2f152a1267f2690bbdbf198d4"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.x86_64-unknown-freebsd11.1-libgfortran3.tar.gz"
+    sha256 = "a9eb98d1eb4de193455cb13a346da5490d17df1e99b82136d018093479a1c605"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.x86_64-unknown-freebsd11.1-libgfortran3.tar.gz"
 [[SCALAPACK]]
-arch = "i686"
-git-tree-sha1 = "9cea179aa9599f7c47525cfbafe4729e90ddecc9"
-libc = "musl"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[SCALAPACK.download]]
-    sha256 = "fed3df88db59175a7b1948a7830575193c65ad25bb3aeafe15d7fab5a65c339b"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.i686-linux-musl-libgfortran3.tar.gz"
-[[SCALAPACK]]
-arch = "armv7l"
-git-tree-sha1 = "dccb2feeadfc8e7c8c41e1276ae341dad0f0d8f6"
+arch = "aarch64"
+git-tree-sha1 = "0463facf16a69c1e54966d6b1ae67b294f55b0bf"
 libc = "glibc"
 libgfortran_version = "4.0.0"
 os = "linux"
 
     [[SCALAPACK.download]]
-    sha256 = "b1950b3803917662b38a992eb73160ebe45e576d27e4183de0a91c40670a694c"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.armv7l-linux-gnueabihf-libgfortran4.tar.gz"
+    sha256 = "0b809610d02bdbcd9045d458c025cc1a6d2d52b89c9faba121ca568fb26b94e1"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.aarch64-linux-gnu-libgfortran4.tar.gz"
 [[SCALAPACK]]
 arch = "i686"
-git-tree-sha1 = "aa47cd274ce5639aafacbea11eee4e6c694b50ab"
+git-tree-sha1 = "0a98a171e510984f0549f3712ebd5fa45942ea53"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[SCALAPACK.download]]
+    sha256 = "fb467b22c98eb7e50a0ef77a3f71531b36d4ad1d2b57f181a6d3f2fb86b13054"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.i686-linux-gnu-libgfortran4.tar.gz"
+[[SCALAPACK]]
+arch = "aarch64"
+git-tree-sha1 = "bab2efcd243c24c2d6d0f81222be0354f4943a62"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[SCALAPACK.download]]
+    sha256 = "0a6fac339d08cdbc1b29de2ba153926b15c3037fbe01dafe3a6903bc61334289"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.aarch64-linux-gnu-libgfortran5.tar.gz"
+[[SCALAPACK]]
+arch = "i686"
+git-tree-sha1 = "50c7bd4aacbb864c92a255caea08cb13bcb684cb"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[SCALAPACK.download]]
+    sha256 = "43c747f51d2692198fce87c0dd3419be376138e1ea38dc446e02fd1c78126b1e"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.i686-linux-musl-libgfortran3.tar.gz"
+[[SCALAPACK]]
+arch = "x86_64"
+git-tree-sha1 = "eb96a6bc80663502794eb53cdf1c55f729020c0f"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[SCALAPACK.download]]
+    sha256 = "73346cb77de5a67220ab8fefe12710003ed993bc7309bc7a1c2bb8faf31f2405"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.x86_64-linux-gnu-libgfortran5.tar.gz"
+[[SCALAPACK]]
+arch = "armv7l"
+git-tree-sha1 = "f6224d91f9b5c7b118373e216c0988c5274d2418"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[SCALAPACK.download]]
+    sha256 = "92ab7a3a44ebdb919136cc9ff5c97ed896e077c323c5121c63218b08e0d1afc6"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.armv7l-linux-gnueabihf-libgfortran4.tar.gz"
+[[SCALAPACK]]
+arch = "x86_64"
+git-tree-sha1 = "687e6d595f99f0e25be6119e71eea6f61b295cb4"
 libc = "musl"
 libgfortran_version = "4.0.0"
 os = "linux"
 
     [[SCALAPACK.download]]
-    sha256 = "c470fb9a83bcc5d0dca653ff9c362faedd93dd1953983729f5c202ae2fa5044d"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.i686-linux-musl-libgfortran4.tar.gz"
+    sha256 = "ebac67c4d7a7280592c0c159a0dea825b056a3ae7e999e78825a4e5f950c8069"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.x86_64-linux-musl-libgfortran4.tar.gz"
 [[SCALAPACK]]
-arch = "aarch64"
-git-tree-sha1 = "528f7cad08b0d8fee67cfc4c5c06bc875ed1865b"
+arch = "armv7l"
+git-tree-sha1 = "0b773cca6804107df28eeca41a630c7f6aa1c128"
 libc = "musl"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[SCALAPACK.download]]
-    sha256 = "be281f91e2681fe054e8c209716288ea7c2f6773e8b9705b89c09abd07ed7a85"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+0/SCALAPACK.v2.1.0.aarch64-linux-musl-libgfortran5.tar.gz"
+    sha256 = "f36ba8acec9f53b1c8ad2336d35cba21439ab1296c4f86d59a591a01458ea03d"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.armv7l-linux-musleabihf-libgfortran5.tar.gz"
+[[SCALAPACK]]
+arch = "x86_64"
+git-tree-sha1 = "4c4a6861970df9fdff650a9202510e101ab71138"
+libgfortran_version = "3.0.0"
+os = "macos"
+
+    [[SCALAPACK.download]]
+    sha256 = "5c6324a0a695af482ca61d61f7065ca0ac0b3c31c42bc9da269cb2e61379e60c"
+    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK_jll.jl/releases/download/SCALAPACK-v2.1.0+1/SCALAPACK.v2.1.0.x86_64-apple-darwin14-libgfortran3.tar.gz"
