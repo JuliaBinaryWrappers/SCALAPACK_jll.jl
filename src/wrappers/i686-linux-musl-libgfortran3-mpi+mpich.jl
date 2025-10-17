@@ -2,13 +2,12 @@
 export libscalapack
 
 using CompilerSupportLibraries_jll
-using OpenBLAS_jll
+using libblastrampoline_jll
 using MPICH_jll
-using MPIPreferences
 JLLWrappers.@generate_wrapper_header("SCALAPACK")
-JLLWrappers.@declare_library_product(libscalapack, "libscalapack.so")
+JLLWrappers.@declare_library_product(libscalapack, "libscalapack.so.2.2")
 function __init__()
-    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, OpenBLAS_jll, MPICH_jll, MPIPreferences)
+    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, libblastrampoline_jll, MPICH_jll, MPIPreferences)
     JLLWrappers.@init_library_product(
         libscalapack,
         "lib/libscalapack.so",
