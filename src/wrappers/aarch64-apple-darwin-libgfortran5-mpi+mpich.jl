@@ -10,7 +10,7 @@ function __init__()
     JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, libblastrampoline_jll, MPICH_jll, MPIPreferences)
     JLLWrappers.@init_library_product(
         libscalapack,
-        "lib/libscalapack.2.2.1.dylib",
+        "lib/libscalapack.2.2.3.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
