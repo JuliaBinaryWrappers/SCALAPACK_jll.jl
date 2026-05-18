@@ -1,6 +1,6 @@
 name = "SCALAPACK_jll"
 uuid = "5d3fc3e8-a677-5550-826f-6cfd58f208da"
-version = "2.2.3+1"
+version = "2.2.4+0"
 
 [deps]
 MPIPreferences = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
